@@ -1,0 +1,81 @@
+body{
+    width:300px;
+    background-color: #fffffc;
+}
+
+.h{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.btn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 4px;
+}
+.create-todo{
+    border: 1px solid;
+    background-color: antiquewhite;
+    color: black;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.create-todo:hover {
+    background-color: #6b6b6b;
+}
+.todo-items,
+.todo-items li{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.todo-items li{
+    padding:10px;
+    border-bottom: 2px solid grey;
+    display:flex;
+    justify-content: space-between;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.todo-items li:hover{
+  background:rgba(0,0,0,0.25);
+}
+
+.todo-items li.done .item{
+       text-decoration: line-through;
+}
+
+.todo-items div span{
+    margin:5px;
+    font-size:1em;
+    cursor: pointer;
+}
+
+.new-item{
+    display: none;
+}
+
+.input{
+    margin-left: 60px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.sax{
+    margin-left: 120px;
+    margin-top: 5px;
+   
+    border: 1px solid;
+    padding: 6px 16px;
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+
+.sax:hover{
+    background-color: blueviolet;
+}
